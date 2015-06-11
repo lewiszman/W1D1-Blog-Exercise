@@ -1,32 +1,47 @@
 <!doctype <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Faceblog</title>
-    <link rel="stylesheet" href="http://lighthouse.jquerycentral.com/css/blog-blue.css">
   </head>
   <body>
-    <header>
-      <h1><img src="http://courses.coreservlets.com/images/hadoop-logo.png"> My Blog </h1>
+    <header id="main">
+      <h1>My Blog</h1>
     </header>
-    <section>
-      <header>
+    <section class="blog-section">
+      <header class="entry-title">
         <img src="http://placekitten.com/200/150">
         <h2>I built a webpage</h2>
         <h3>Monday, June 8, 2015</h3>
         <h4><span style="color: grey;">Lewis Man</span></h4>
       </header>
-      <article>
+      <article class="entry-body">
         <p>Oh boy! I am really looking forward to building this webpage! So far I've been given an introduction to <strong>HTML5</strong>, learned about <em>tags n shit</em>. It's <em>great!</em></p>
         <p>I can't wait until I learn how to <span style="color: red;"><strong>pimp</strong> this mother out!</span></p>
       </article>
     </section>
-    <aside>
-      <section>
-        <h4>Widget</h4>
-      </section>
-      <section>
-        <h4>Widget</h4>
-      </section>
-    </aside>
+
+    <section class="widget">
+      <aside>
+        <section>
+          <h4>My Pet</h4>
+          <p>Dawn</p>
+        </section>
+        <section>
+          <h4>My Favourite Color</h4>
+          <p class="green">Green</p>
+        </section>
+        <section>
+          <h4>Bucket List</h4>
+            <ul>
+              <li>travel to Italy</li>
+              <li>skydiving</li>
+              <li>eat 15 hotdogs in one sitting</li>
+            </ul>
+        </section>
+      </aside>
+    </section>
+
+
   </body>
 </html>

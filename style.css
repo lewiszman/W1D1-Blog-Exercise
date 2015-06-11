@@ -1,0 +1,43 @@
+body {
+  font-family: courier;
+}
+
+header {
+  padding: 50px;
+  text-align: center;
+}
+
+#main {
+  background-image: url(http://www.psdgraphics.com/file/colorful-triangles-background.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+  font-size: 3em;
+}
+
+.entry-title {
+  text-align: center;
+}
+
+.entry-body {
+  color: brown;
+  padding: 15px;
+  margin: 25px 15px;
+}
+
+.blog-section {
+  background-image: url(http://cf.mp-cdn.net/9d/d7/94bcef87699749efc6e125254b6d.jpg);
+  background-size: 100%;
+}
+
+aside section h4 {
+  text-align: center;
+}
+
+section header {
+  text-align: left;
+}
+
+.widget {
+  text-align: center;
+  background-image: 
+}
